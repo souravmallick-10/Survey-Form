@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    font-weight:600;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(#a2d4a2,#488d48);
+}
+.container{
+    max-width: 900px;
+    width: 100%;
+    border-radius: 6px;
+    padding: 10px 28px 0;
+    margin: 0 28px;
+    background-color: white;
+    position: relative;
+}
+h2{
+    font-size: 26px;
+    font-weight: 600;
+    text-align: left;
+    color: #377b26;
+    padding-bottom: 8px;
+}
+
+main{
+    width: 50%;
+    display: inline-block;
+}
+aside{
+    width: 49%;
+    display: inline-block;
+    
+}
+.content{
+    
+    padding: 20px 0;
+}
+.input-box{
+  
+    width: 90%;
+    padding-bottom: 10px;
+    padding-top: 0;
+}
+
+.input-box label, .age-title{
+    
+    color: black;
+    font-weight: bold;
+    margin: 5px 0;
+}
+.age-title{
+    font-size: 16px;
+    font-weight: 100;
+}
+.age-category{
+    width: 95%;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 20px;
+}
+.age-title{
+    position: absolute;
+    left: 40px;
+    bottom: 185px;
+    
+}
+
+.input-box input{
+    height: 30px;
+    width: 95%;
+    padding: 0 10px;
+    border-radius: 5px;
+    border: 0.5px solid lightgrey;
+    margin-top: 5px;
+    outline: none;
+}
+option{
+    height: 30px;
+    width: 95%;
+    padding: 0 10px;
+    border-radius: 5px;
+    border: 0.5px solid lightgrey;
+    margin-top: 5px;
+    outline: none;
+}
+p{
+    font-weight: 100;
+}
+#submit{
+    width: 100%;
+    background-color: #377b26;
+    color: white;
+    border: none;
+    padding: 6px;
+    border-radius: 6px;
+}
+.appearance-category{
+    padding: 5px;
+}
+.rate-category{
+    padding: 5px;
+}
+#location{
+    width: 90%;
+    font-weight: 100;
+    color: #488d48;
+    padding: 2px;
+    border: 0.5px solid grey;
+    border-radius: 6px;
+}
+::placeholder{
+    color:#488d48;
+    font-weight: 100;
+}
